@@ -1,0 +1,111 @@
+{
+	"name": "Sane",
+	"type": "dark",
+	"colors": {
+		"focusBorder": "#333333",
+		"foreground": "#dddddd",
+		"widget.shadow": "#000000",
+		"selection.background": "#666666",
+		"descriptionForeground": "#dddddd",
+		"errorForeground": "#ff0077",
+		"icon.foreground": "#666666",
+		"window.activeBorder": "#000000ff",
+		"window.inactiveBorder": "#00000088",
+		"textBlockQuote.background": "#000000",
+		"textBlockQuote.border": "#666666",
+		"textCodeBlock.background": "#000000",
+		"textLink.activeForeground": "#ff0077",
+		"textLink.foreground": "#ff0077",
+		"textPreformat.foreground": "#dddddd",
+		"textSeparator.foreground": "#dddddd",
+		"button.background": "#222222",
+		"button.foreground": "#dddddd",
+		"button.hoverBackground": "#000000",
+		"editor.background": "#111111",
+		"editor.foreground": "#dddddd",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#dddddd",
+		"badge.background": "#666666",
+		"activityBar.activeBackground": "#000000",
+		"activityBar.background": "#000000",
+		"titleBar.activeBackground": "#000000",
+		"statusBar.background": "#000000",
+		"statusBar.border": "#333333",
+		"panel.background": "#000000",
+		"list.activeSelectionBackground": "#000000",
+		"list.dropBackground": "#000000",
+		"list.focusBackground": "#000000",
+		"list.inactiveSelectionBackground": "#000000",
+		"list.inactiveFocusBackground": "#ff0000",
+		"sideBar.background": "#000000",
+		"sideBar.border": "#333333",
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#666666",
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.control"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
+				"punctuation.separator"
+			],
+			"settings": {
+				"foreground": "#aaaaaa"
+			}
+		},
+		{
+			"name": "Other Keywords",
+			"scope": [
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#aaaaaa",
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant",
+				"string"
+			],
+			"settings": {
+				"foreground": "#ff0077"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#dddddd",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Key",
+			"scope": [
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#dddddd",
+			}
+		}
+	]
+}
